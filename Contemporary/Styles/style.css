@@ -1,0 +1,309 @@
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(120, 212, 177);
+}
+body .volver {
+  width: 50px;
+  height: 50px;
+  background-color: #e0dfd5;
+  border-radius: 100%;
+  position: fixed;
+  top: 94%;
+  left: 0.3%;
+  display: grid;
+  transition: 0.2s;
+}
+body .volver img {
+  width: 80%;
+  margin: auto;
+}
+@media screen and (max-width: 450px) {
+  body .volver {
+    top: 93.5%;
+    left: 1%;
+    width: 30px;
+    height: 30px;
+  }
+}
+body .volver:hover {
+  box-shadow: 1px 1px 5px rgb(124, 124, 124);
+}
+body .prueba {
+  width: 100%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+body .prueba header {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  background-color: white;
+}
+@media screen and (max-width: 1100px) {
+  body .prueba header {
+    width: 100%;
+  }
+}
+body .prueba header .navMobile {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+body .prueba header .navMobile div {
+  display: none;
+}
+body .prueba header .navMobile ul {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  list-style: none;
+  gap: 30px;
+  background-color: transparent;
+}
+body .prueba header .navMobile ul a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding-bottom: 5px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+body .prueba header .navMobile ul a:hover {
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+body .prueba header .navMobile #btn {
+  width: 20px;
+}
+@media screen and (max-width: 1100px) {
+  body .prueba header .navMobile #btn {
+    display: block;
+    width: 50px;
+  }
+}
+body .prueba header nav {
+  width: 80%;
+  margin: 0 auto;
+  height: 70px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 450px) {
+  body .prueba header nav {
+    width: 90%;
+  }
+}
+body .prueba header nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .prueba header nav div img {
+  width: 280px;
+  margin-left: -10px;
+}
+body .prueba header nav div h1 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+  letter-spacing: 4px;
+  margin: auto;
+}
+@media screen and (max-width: 450px) {
+  body .prueba header nav div h1 {
+    font-size: 20px;
+  }
+}
+body .prueba header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin-top: 15px;
+  background-color: transparent;
+}
+@media screen and (max-width: 1100px) {
+  body .prueba header nav ul {
+    display: none;
+  }
+}
+body .prueba header nav ul a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  padding-bottom: 5px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+body .prueba header nav ul a:hover {
+  color: #dbbe7f;
+}
+body .prueba header nav #btn {
+  width: 20px;
+  display: none;
+}
+@media screen and (max-width: 1100px) {
+  body .prueba header nav #btn {
+    display: block;
+    width: 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  body .prueba header nav #btn {
+    width: 35px;
+  }
+}
+body .prueba header .hola {
+  width: 80%;
+  margin: auto;
+}
+@media screen and (max-width: 450px) {
+  body .prueba header .hola {
+    width: 90%;
+  }
+}
+body .prueba .interiors {
+  width: 1200px;
+  height: auto;
+  background-color: white;
+  margin: auto;
+}
+body .prueba .interiors h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+body .prueba .interiors div {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+@media screen and (max-width: 450px) {
+  body .prueba .interiors div {
+    width: 90%;
+  }
+}
+body .prueba .interiors div img {
+  margin-top: 30px;
+  width: 100%;
+}
+@media screen and (max-width: 1100px) {
+  body .prueba .interiors {
+    width: 100%;
+  }
+}
+body .prueba .setdesing {
+  width: 1200px;
+  height: auto;
+  background-color: #ffffff;
+  margin: auto;
+}
+body .prueba .setdesing h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+body .prueba .setdesing div {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+@media screen and (max-width: 450px) {
+  body .prueba .setdesing div {
+    width: 90%;
+  }
+}
+body .prueba .setdesing div img {
+  margin-top: 30px;
+  width: 100%;
+}
+@media screen and (max-width: 1100px) {
+  body .prueba .setdesing {
+    width: 100%;
+  }
+}
+body .prueba .styling {
+  width: 1200px;
+  height: auto;
+  background-color: #ffffff;
+  margin: auto;
+}
+body .prueba .styling h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+body .prueba .styling div {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+@media screen and (max-width: 450px) {
+  body .prueba .styling div {
+    width: 90%;
+  }
+}
+body .prueba .styling div img {
+  margin-top: 30px;
+  width: 100%;
+}
+@media screen and (max-width: 1100px) {
+  body .prueba .styling {
+    width: 100%;
+  }
+}
+body .prueba .contact {
+  width: 1200px;
+  height: 200px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .prueba .contact h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 450px) {
+  body .prueba .contact {
+    height: 200px;
+  }
+}
+body .prueba .contact div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+body .prueba .contact div img {
+  width: 60px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+body .prueba .contact div img:hover {
+  width: 65px;
+}
+@media screen and (max-width: 1100px) {
+  body .prueba .contact {
+    width: 100%;
+  }
+}
+body .prueba .contact p {
+  text-align: center;
+  margin-top: 10px;
+}
+@media screen and (max-width: 450px) {
+  body .prueba .contact p {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
